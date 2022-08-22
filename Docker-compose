@@ -1,0 +1,14 @@
+Everything about docker-compose; available at https://docs.docker.com/compose/install/
+
+docker-compose --help ~> Show help about docker-compose
+docker-compose --version ~> Show version of docker-compose
+
+docker-compose up ~> Create and start a container
+docker-compose build ~> Realize only the build of the image of containers
+docker-compose logs ~> Show logs of containers
+docker-compose restart ~> Restart containers
+docker-compose ps ~> Show all containers
+docker-compose scale ~> Permits to increase a number of images containers
+docker-compose start ~> Start a container
+docker-compose stop ~> Stop a container
+docker-compose down ~> Stop and remove all about containers

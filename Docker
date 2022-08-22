@@ -1,0 +1,35 @@
+Here you will find every commands about Docker!
+
+docker --help ~> Show help about Docker
+docker --version ~> Show version of Docker
+docker --license ~> Show license of Docker
+
+docker image list ~> List all images
+docker image pull python ~> Pull image from DockerHub
+docker image inspect python ~> Inspect image
+docker container run <params> <image> <CMD> <arguments> ~> Run container
+docker container run -d <params> <image> <CMD> <arguments> ~> Run container in background
+docker container stop <container> ~> Stop container
+
+-i ~> Interactive mode
+-t ~> Interactive mode with tty
+-d ~> Detached mode
+-p <port> ~> Port to expose
+-v <volume> ~> Volume to expose
+-m <memory> ~> Limit the RAM Memory
+-c <cpu> ~> Limit the CPU
+
+docker ps ~> List all containers
+docker container run -it --rm -p 80:8080 python ~> Run container with port 8080
+
+==================================================================================
+
+docker container list <parâmetros> ~> List all containers
+-a ~> List all containers (including stopped containers)
+-l ~> List the last containers (including offline containers)
+-q ~> Only display the containers IDs
+
+==================================================================================
+
+docker container start <container> ~> Start container
+docker container stop <container> ~> Stop container
